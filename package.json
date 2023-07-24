@@ -1,0 +1,28 @@
+{
+  "name": "ble-pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-14",
+    "@types/web-bluetooth": "0.0.11",
+    "async": "^3.2.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "noble": "^1.9.1",
+    "noble-mac": "https://github.com/Timeular/noble-mac.git",
+    "open": "^8.2.1",
+    "serve-favicon": "^2.5.0",
+    "ws": "^8.2.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.5"
+  }
+}

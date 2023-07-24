@@ -1,0 +1,31 @@
+body {
+    background: rgba(0,0,0,0);
+}
+
+body {
+    white-space: nowrap;
+    color: black;
+    font-weight: bold;
+    font-size: 150px;
+    overflow-x: visible;
+
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+#heart {
+    color: #890000;
+    display: inline-block;
+
+    animation-name: pulse_animation;
+    animation-duration: 1200ms;
+    transform-origin: 70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse_animation {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.03);}
+    100% {transform: scale(1);}
+}
